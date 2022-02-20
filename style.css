@@ -1,10 +1,17 @@
 body {
 
         
-    background-image: linear-gradient( to right, #81FFEF 10%, #F067B4 100%);
-    font-family: Helvetica, sans-serif;
+    background-color: slategray;
+    font-family: Andale Mono, monospace;
+    box-sizing: border-box;
+    color: whitesmoke;
 
 
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 
@@ -12,7 +19,6 @@ body {
 h1 {
 
     text-align: center;
-    color: white;
     
     font-weight: bolder;
     font-size: 100px;
@@ -20,7 +26,9 @@ h1 {
 
 
 .recpies {
-
-    font-weight: bold;
-    font-size: 55px;
+    border: 10px solid whitesmoke;
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
 }
+
